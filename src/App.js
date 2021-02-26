@@ -3,7 +3,7 @@ import "./App.css";
 import { Route} from "react-router-dom";
 import Homepage from "./pages/homepage/homepage.component";
 
-const HatsPage = () => <div>HAts page</div>;
+import ShopPage from './pages/shop/shop.component'
 
 class App extends Component {
   render() {
@@ -12,7 +12,7 @@ class App extends Component {
      
       
         <Route exact path="/" component={Homepage} />        
-        <Route exact path="/hats" component={HatsPage} />
+        <Route exact path="/shop" component={ShopPage} />
         
       </div>
     );
