@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "node-sass": "4",
+    "node-sass": "7",
     "react": "^17.0.1",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.2.0",
